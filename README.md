@@ -7,3 +7,6 @@
 
 - ⚡ I spend most of my spare time developing in C and Assembly in Windows environments (very old school).
 
+**Find me on:**
+
+[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://it.linkedin.com/in/angelo-frasca-caccia-466673189)

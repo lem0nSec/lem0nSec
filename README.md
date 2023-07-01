@@ -5,7 +5,19 @@
 
 - 🌱 I’m constantly learning and developing new code for my own education.
 
-- ⚡ I spend most of my spare time developing in C and Assembly in Windows environments (very old school).
+- ⚡ I spend most of my spare time developing in C and Assembly in Windows environments.
+
+
+```c
+#include <stdio.h>
+
+int main()
+{
+  printf("Hello Lemons!\n");
+  return 0;
+}
+```
+
 
 #### Find me on:
 

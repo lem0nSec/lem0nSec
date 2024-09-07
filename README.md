@@ -17,7 +17,7 @@
 
 __Hi lem0nS!__ 
 
-I’m a __Penetration Tester__ and __Red Teamer Operator__ who is passionate about programming, reverse engineering, and binary exploitation. I spend most of my spare time researching and building software in C and x86 Assembly. Windows is my platform of choice, and I often define it '_my security playground_'. Feel free to explore my GitHub projects!
+I’m a __Security Researcher__ who is passionate about programming, reverse engineering, and binary exploitation. I spend most of my spare time researching and building software in C and x86 Assembly. Windows is my platform of choice, and I often define it '_my security playground_'. Feel free to explore my GitHub projects!
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 # Welcome to lem0nSec's GitHub page! 👋
 
-[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://it.linkedin.com/in/angelo-frasca-caccia-466673189)
+[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Angelo-Frasca-Caccia)
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lem0nSec)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------

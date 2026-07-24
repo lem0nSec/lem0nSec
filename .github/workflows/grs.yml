@@ -23,12 +23,30 @@ jobs:
           options: username=${{ github.repository_owner }}&custom_title=lem0nSec%27s%20Stats&show_icons=true&theme=dark&card_width=400
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
+
+      - name: Verify generated SVG
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -s profile/stats.svg
+
+          if grep -qiE "something went wrong|error fetching|bad credentials|rate limit" profile/stats.svg; then
+            echo "::error::The generated SVG contains an error card."
+            cat profile/stats.svg
+            exit 1
+          fi
+
+          echo "Generated SVG size: $(wc -c < profile/stats.svg) bytes"
 
       - name: Commit stats card
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add profile/stats.svg
 
           if git diff --cached --quiet; then
